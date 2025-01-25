@@ -67,14 +67,14 @@
 
         combo_hyper_left {
             bindings = <&SK500 LS(LA(LC(LEFT_GUI)))>;
-            key-positions = <28 29>;
+            key-positions = <16 15>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
 
         combo_hyper_right {
             bindings = <&SK500 RS(RA(RC(RIGHT_GUI)))>;
-            key-positions = <30 31>;
+            key-positions = <19 20>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
