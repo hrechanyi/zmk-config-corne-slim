@@ -30,5 +30,8 @@
 ### Media layer
 ![Media layer](images/layer_media.png)
 
+### System layer
+![System layer](images/layer_system.png)
+
 ### Combos
 ![Combos](images/combos.png)
