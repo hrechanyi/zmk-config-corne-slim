@@ -27,9 +27,6 @@
 ### Numpad layer
 ![Numpad layer](images/layer_numpad.png)
 
-### Media layer
-![Media layer](images/layer_media.png)
-
 ### System layer
 ![System layer](images/layer_system.png)
 
