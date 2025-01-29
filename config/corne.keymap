@@ -30,6 +30,20 @@
             layers = <0 2 1>;
             timeout-ms = <50>;
         };
+
+        combo_hyper_left {
+            bindings = <&skqr LS(LA(LC(LEFT_GUI)))>;
+            key-positions = <27 28>;
+            timeout-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        combo_hyper_right {
+            bindings = <&skqr RS(RA(RC(RIGHT_GUI)))>;
+            key-positions = <32 31>;
+            timeout-ms = <50>;
+            layers = <0 2 1>;
+        };
     };
 
     keymap {
@@ -43,10 +57,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T                             &kp Y    &kp U  &kp I          &kp O    &kp P          &kp GRAVE
-&kp LEFT_ALT      &kp A  &kp S  &kp D         &kp F  &kp G                             &kp H    &kp J  &kp K          &kp L    &kp SEMICOLON  &kp SQT
-&skqr LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V  &kp B                             &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_CONTROL
-                                &kp LEFT_GUI  &mo 1  &mt LS(LA(LC(LEFT_GUI))) SPACE    &kp RET  &mo 2  &kp BACKSPACE
+&kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P          &kp GRAVE
+&kp LEFT_ALT      &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMICOLON  &kp SQT
+&skqr LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_CONTROL
+                                &kp LEFT_GUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
             >;
 
             label = "Base";
