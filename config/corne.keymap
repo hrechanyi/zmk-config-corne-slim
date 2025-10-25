@@ -28,27 +28,27 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = <75>;
         };
 
         combo_hyper_left {
             bindings = <&skqr LS(LA(LC(LEFT_GUI)))>;
             key-positions = <27 28>;
-            timeout-ms = <50>;
+            timeout-ms = <75>;
             layers = <0 2 1>;
         };
 
         combo_hyper_right {
             bindings = <&skqr RS(RA(RC(RIGHT_GUI)))>;
             key-positions = <32 31>;
-            timeout-ms = <50>;
+            timeout-ms = <75>;
             layers = <0 2 1>;
         };
 
         combo_system_layer {
             bindings = <&to 3>;
             key-positions = <40 30>;
-            timeout-ms = <50>;
+            timeout-ms = <75>;
             layers = <0>;
         };
     };
